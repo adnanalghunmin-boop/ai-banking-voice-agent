@@ -15,6 +15,18 @@ token, and every account/card-scoped endpoint requires it instead of
 trusting a caller-supplied customer_id/account_id. See "Phase 3: verification
 tokens" below. HeyBreez integration and FAQ/RAG are still not implemented.
 
+## Breez Call Display (Chrome extension)
+
+Breez Call Display is a separate, MENADEVS-branded Chrome extension that
+presents HeyBreez browser test calls in a full-screen interface. It displays
+live caller and agent speech, highlights each new word in green, and adjusts
+text size for longer utterances. The interface also shows the call timer,
+connection and conversation states, and an animated audio indicator, with
+controls to mute the microphone, end the call, or hide the display.
+
+The extension provides a visual layer for test calls. Banking operations and
+voice-agent behavior remain in their respective backend and HeyBreez workflows.
+
 ## Project structure
 
 ```
